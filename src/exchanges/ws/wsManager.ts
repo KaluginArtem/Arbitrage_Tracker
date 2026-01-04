@@ -1,5 +1,5 @@
 import { PairRequest, TopOfBook } from "../../types";
-import { WebSocketAdapter } from "../base";
+import { WebSocketAdapter } from "../base/base";
 
 export class WebSocketManager {
   private adapters: WebSocketAdapter[] = [];
